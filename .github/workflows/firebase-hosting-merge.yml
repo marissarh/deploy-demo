@@ -19,4 +19,4 @@ jobs:
           channelId: live
           projectId: github-demo-deploy
         env:
-          VITE_APP_VERSION: '${{ secrets.VITE_APP_VERSION }}'
+          VITE_APP_VERSION: ${{secrets.VITE_APP_VERSION}}

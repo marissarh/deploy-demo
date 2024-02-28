@@ -20,4 +20,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GITHUB_DEMO_DEPLOY }}'
           projectId: github-demo-deploy
         env:
-          VITE_APP_VERSION: '${{ secrets.VITE_APP_VERSION }}'
+          VITE_APP_VERSION: ${{secrets.VITE_APP_VERSION}}
