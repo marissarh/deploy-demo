@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <ul>
       <li>
-        <Link to="/">Home Page Link Here</Link>
+        <Link to="/">Home Page Link Here!!!</Link>
       </li>
       <li>
         <Link to="/github/search">Github Search</Link>
