@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GITHUB_DEMO_DEPLOY_607BA }}'
           channelId: live
           projectId: github-demo-deploy-607ba
+        env:
+          VITe_APP_VERSION: ${{ secret.VITE_APP_VERSION }}
